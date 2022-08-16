@@ -1,0 +1,314 @@
+* {
+    padding: none;
+    margin: 0;
+}
+body {
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+text-align: center;
+}
+
+#mid{
+    background-color: gainsboro;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:checked {
+    color: black;
+    text-decoration: none;
+}
+
+#box {
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#menu {
+    width: 100%;
+    height: 80px;
+}
+
+#block-menu {
+    float: left;
+}
+
+.box-menu {
+    float: left;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 150px;
+    font-weight: 600;
+
+}
+
+#form {
+    float: left;
+    padding: 20px;
+    
+}
+
+#menu-text {
+    width: 500px;
+    height: 30px;
+    font-weight: 600;
+}
+
+#menu-button {
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+}
+
+#logo {
+    padding: 20px;
+    float: left;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#napis-form{
+    text-align: center;
+    margin-left: 24px;
+    color: red;
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 600;
+}
+#down-menu {
+    background-color: aqua;
+    height: :90px;
+}
+
+#text-down-menu {
+    width: 300px;
+    height: 15px;
+    font-weight: 600;
+}
+
+#button-down-menu {
+    width: 80px;
+    height: 20px;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+}
+
+#s {
+    padding: 5px;
+}
+
+#efect-down {
+    margin-left: 50%;
+    margin-right: 50%;
+    display: block
+}
+
+#form-down {
+    text-align: right;
+    padding: 5px
+}
+.block-main{
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+.form-news{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+#button-news{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: red;
+    border:none;
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+#color-form-news{
+    background-color: ghostwhite;
+    border-radius: 10px;
+    height: 460px;
+    	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    
+}
+h3{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 25px;
+    
+}
+#down{
+    width: 100%;
+    background-color:aqua;
+    text-align: center;
+    font-size:10px;
+    clear: both;
+    height: 50px;
+    
+
+}
+#chcek{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+
+#inpute{
+    width: 450px;
+    height: 30px;
+    margin: 10px;
+    border-radius:10px;
+    
+}
+
+#marc{
+    font-size: 30px;
+    text-align: center;
+    width: 350px;
+    border-bottom: 3px dotted red;
+}
+.storage{
+    margin-top:10px;
+    width: 350px;
+
+}
+#bat{
+    clear: both;
+    margin-top: 10px;
+    width: 350px;
+    border-bottom: 3px dotted red;
+}
+#cash{
+    float: right;
+    font-size:15px;
+    margin-top: 25px;
+}
+h7{
+text-align: center;
+}
+#button-phone{
+    height: 20px;
+    width: 100px;
+    margin: 10px;
+    color: aliceblue;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+}
+#block-phone{
+    margin: 10px;
+    width: auto;
+    height: 350px;
+    background-color: white;
+    float: left;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    place-items: center;
+}
+#block-phone:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+#inpute-button{
+   background-color: red;
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 8px;
+    border: none;
+    height: 25px;
+    width: 100px;
+}
+#is{
+    text-align: center;
+    margin-top: 2%;
+}
+h5{
+    text-align: justify;
+    margin-top: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media screen and (max-width:1270px) {
+    .box-menu {
+        margin-left: 10px;
+    }
+
+    #menu-text {
+        width: 400px;
+    }
+
+    #text-down-menu {
+        width: 200px;
+
+    }
+
+    #s {
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    #menu-text {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:930px) {
+
+    #down-menu {
+        margin-top: 40px;
+        height: :90px;
+    }
+
+    .box-menu {
+        width: 30%;
+        margin-top: 0px;
+    }
+
+    #block-menu {
+        width: 100%;
+        
+    }
+
+    #menu-text {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width:920px) {
+    .box-menu {
+        width: 25%;
+        text-align: center;
+    }
+}

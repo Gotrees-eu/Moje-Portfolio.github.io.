@@ -1,0 +1,144 @@
+* {
+    padding: none;
+    margin: none;
+}
+
+body {
+    background-image: url(pictures/hexellence.png);
+    text-align: center;
+    font-size: 15x;
+    font-family: sans-serif;
+    color: black;
+}
+
+#cointener {
+    width: 1400px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+h2 {
+    letter-spacing: 10px;
+}
+
+h2::after,
+h2::before {
+    content: "-";
+}
+
+a,
+a:checked,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#top {
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid gray;
+}
+
+#main {
+    font-size: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+    font-weight: 700;
+}
+
+#name {
+    font-size: 20px;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+}
+
+#left-main {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.menu {
+    height: 100px;
+    width: 100%;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding: 40px;
+    border-bottom: 2px solid black;
+}
+
+.menu::after,
+.menu::before {
+    content: "-";
+}
+
+.menu:hover {
+    height: 110px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#right-main {
+    padding: 20px;
+    width: 70%;
+    box-sizing: border-box;
+    float: left;
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.img-umiem{
+    margin: 1%;
+    box-sizing: border-box;
+    background-color: ghostwhite;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+.img-umiemp{
+    margin: 1%;
+    box-sizing: border-box;
+    background-color: ghostwhite;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 80%;
+  
+}
+figcaption{
+    margin-top: 10px;
+}
+img:hover{
+    width: 500px;
+    padding: 10px;
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out ;
+    opacity: 1;
+    cursor: zoom-in;
+}
+@media screen and (max-width:1000px) {
+    #right-main{
+    clear: both;
+    width: 100%;
+    }
+    #left-main {
+    width: 100%;
+}
+}
+    
+

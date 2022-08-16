@@ -1,0 +1,270 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+#cointener {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu-main-up {
+    width: auto;
+    height: 55px;
+}
+
+#logo {
+    float: left;
+    padding: 10px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.menu-main {
+    width: 130px;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+#login{
+    float: right;
+    padding: 10px;
+}
+.menu-main:hover {
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:checked {
+    color: black;
+    text-decoration: none;
+}
+#main-top{
+    width: 100%;
+}
+#main-left{
+    width: 33%;
+    height: 500px;
+    margin: 1.5%;
+    float: left;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#main-right{
+    width: 60%;
+    height: 500px;
+    margin: 1.5%;
+    float: left;
+    border-left: 2px solid black;
+    
+}
+#form{
+    width: 550px;
+    background-color: bisque;
+    border-radius: 15px;
+    height: 400px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+#form-city{
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#from-city-button{
+    background-color: red;
+    margin-top: 30px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#main-footer{
+    clear: both;
+    width: 100%;
+    height: 100px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.fa-regular{
+    font-size: 20px;
+}
+.fa-solid{
+    font-size: 20px;
+}
+.fa-brands{
+    font-size: 20px;
+}
+.footer-block{
+    float: left;
+    padding: 5px;
+    height: 100px;
+    width: 250px;
+    margin: 25px;
+    margin-left: 80px;
+    box-sizing: border-box;
+    
+}
+#left-mid-top{
+    float: left;
+    padding: 50px;
+    text-align: justify;
+    font-size: 20px;
+    width: 40%;
+    height: 400px;
+    background-color: #f7eacd;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+#right-mid-top{
+    float: left;
+    padding: 50px;
+    text-align: justify;
+    font-size: 20px;
+    width: 45%;
+    height: 400px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+#footer{
+    background-color: bisque;
+    height: 25px;
+    width: auto;
+    padding: 25px;
+    box-sizing: border-box;
+}
+#mid-dziala{
+    margin: 30px;
+    padding: 10px;
+}
+#left-top-dostepnosc{
+    padding: 20px;
+
+    float: left;
+    width: 25%;
+    background-color: ghostwhite;
+    height: 400px;
+    box-sizing: border-box;
+}
+#city-termin-form{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#start{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#right-top-dostepnosc{
+    float: left;
+    border-left: 2px solid black;
+    width: 68%;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+}
+#footer{
+    clear: both;
+}
+#img-warming{
+    float: left;
+}
+#word-warming{
+    float: left;
+    padding: 15px;
+}
+#top-select{
+    clear: both;
+    padding: 50px;
+    background-color: ghostwhite;
+}
+#mid-select{
+    clear: both;
+    padding: 50px;
+    background-color: aliceblue;
+}
+#button-city-termin{
+    height: 75px;
+    width: 150px;
+    background-color: #f52a2a;
+    border: none;
+    font-size:  25px;
+    margin-top: 50px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+#button-city-termin:hover{
+    cursor: pointer;
+    background-color: #e41919;
+    height: 80px;
+    width: 160px;
+    box-sizing: border-box;
+}
+#wrong{
+    color: red;
+    font-size: 25px;
+}
+#free-termin{
+    width: 440px;
+    height: 120px;
+    background-color: ghostwhite;
+    color: red;
+    float: left;
+    margin: 15px;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+#city-termin{
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 25px;
+    color: black;
+}
+#activ-termin{
+   margin-top: 30px; 
+   font-size: 15px;
+}
+#mid-dostepnosc{
+    height: 400px;
+    margin-top: 50px;
+    clear: both;
+}
+#footer-dostepnosc{
+    height: 500px;
+    background-color: ghostwhite;
+    clear: both;
+}
+
+
+
