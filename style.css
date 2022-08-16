@@ -11,7 +11,7 @@ body {
 }
 
 #cointener {
-    width: 1200px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -136,9 +136,10 @@ img:hover{
     }
     #left-main {
     width: 100%;
+        
 }
     #cointener{
-        width:800px;
+        width: 700px;
         margin-left: auto;
         margin-right: auto;
     }
