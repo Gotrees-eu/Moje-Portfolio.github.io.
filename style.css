@@ -4,7 +4,6 @@
 }
 
 body {
-    background-image: url(pictures/hexellence.png);
     text-align: center;
     font-size: 15x;
     font-family: sans-serif;
@@ -139,7 +138,7 @@ img:hover{
     width: 100%;
 }
     #cointener{
-        width:600px;
+        width:800px;
         margin-left: auto;
         margin-right: auto;
     }
