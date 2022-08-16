@@ -4,10 +4,13 @@
 }
 
 body {
+    background-image: url(pictures/hexellence.png);
     text-align: center;
     font-size: 15x;
     font-family: sans-serif;
     color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cointener {
